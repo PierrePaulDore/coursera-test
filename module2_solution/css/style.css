@@ -1,0 +1,205 @@
+
+/* ********* Base styles ********* */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+p {
+  clear: both;
+  padding: 10px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#box-chicken {
+  position: relative;
+  background-color: #999999;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 95%;
+ 
+}
+#inner-box-chicken {
+  float: right;
+  background-color: #D59898;
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 125%;
+  font-weight: 700;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin-bottom: 10px;
+}
+
+#box-beef {
+  background-color: #999999;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 95%;
+}
+
+#inner-box-beef {
+  float: right;
+  background-color: #C14543;
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 125%;
+  font-weight: 700;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#box-sushi {
+  background-color: #999999;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 95%;
+}
+
+#inner-box-sushi {
+  float: right;
+  background-color: #E5D198;
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 125%;
+  font-weight: 700;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin-bottom: 10px;
+}
+
+  
+/* ********* Large devices only (Desktop) ********* */
+@media (min-width: 992px) {
+  #box-chicken {
+    position: relative;
+    background-color: #999999;
+    border: 1px solid black;
+    margin: 5px 10px 20px;
+    width: 31%;
+    float: left;
+  }
+  #inner-box-chicken {
+    float: right;
+    background-color: #D59898;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 125%;
+    font-weight: 700;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-bottom: 10px;
+  }
+  
+  #box-beef {
+    background-color: #999999;
+    border: 1px solid black;
+    margin: 5px 10px 20px;
+    width: 31%;
+    float: left;
+  }
+  
+  #inner-box-beef {
+    float: right;
+    background-color: #C14543;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 125%;
+    font-weight: 700;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #box-sushi {
+    background-color: #999999;
+    border: 1px solid black;
+    margin: 5px 10px 20px;
+    width: 31%;
+    float: left;
+  }
+  
+  #inner-box-sushi {
+    float: right;
+    background-color: #E5D198;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 125%;
+    font-weight: 700;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-bottom: 10px;
+  }
+} 
+
+
+/* ********* Medium devices only (Tablet ) ********* */
+@media (min-width: 768px) and (max-width: 991px) {
+    #box-chicken {
+    position: relative;
+    background-color: #999999;
+    border: 1px solid black;
+    margin: 5px 10px 20px;
+    width: 47.3%;
+    float: left;
+  }
+  #inner-box-chicken {
+    float: right;
+    background-color: #D59898;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 125%;
+    font-weight: 700;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-bottom: 10px;
+  }
+  
+  #box-beef {
+    background-color: #999999;
+    border: 1px solid black;
+    margin: 5px 10px 20px;
+    width: 47.3%;
+    float: left;
+  }
+  
+  #inner-box-beef {
+    float: right;
+    background-color: #C14543;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 125%;
+    font-weight: 700;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #box-sushi {
+    background-color: #999999;
+    border: 1px solid black;
+    margin: 5px 10px 20px;
+    width: 98%;
+    float: left;
+  }
+  
+  #inner-box-sushi {
+    float: right;
+    background-color: #E5D198;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 125%;
+    font-weight: 700;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-bottom: 10px;
+  }
+
+}
