@@ -1,45 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Module 3 Solution</title>
-  <link rel="stylesheet" href="css/style.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <title>Module 3 solution</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <h1>Module 3</h1>
 
-  <div id="container">
-      <div id="box-chicken">
-        <div id="inner-box-chicken">Chicken</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.</p>
-      </div>
-      <div id="box-beef">
-        <div id="inner-box-beef">Beef</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.</p>
-      </div>
-      <div id="box-sushi">
-        <div id="inner-box-sushi">Sushi</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.</p>
-      </div>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <h1>Food, LLC</h1>
+          </a>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+              <li>
+                <a href="menu-categories.html">
+                  <br class="hidden-xs"> Chicken</a>
+              </li>
+              <li>
+                <a href="#">
+                  <br class="hidden-xs"> Beef</a>
+              </li>
+              <li>
+                <a href="#">
+                  <br class="hidden-xs"> Sushi</a>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div>
+      </div><!-- /.container -->
+    </nav>
+  </header>
+
+  <h2 class="text-center">Our Menu</h2>
+
+  <div id="main-content" class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3 class="text-center">Chicken</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad deleniti asperiores
+        neque consectetur? Doloremque non, repellat, molestias, sed beatae repellendus quisquam eaque ad nostrum vero
+        rerum in aliquam delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam eos molestias eum
+        reprehenderit molestiae maxime nam culpa eligendi necessitatibus accusamus doloribus quam, ut at blanditiis
+        delectus odio ea atque ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellat, alias
+        aperiam, facere rem voluptatibus delectus accusamus iusto sed, aspernatur blanditiis. Quo quas modi laudantium
+        nostrum repudiandae harum sunt inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad deleniti asperiores
+        neque consectetur? Doloremque non, repellat, molestias, sed beatae repellendus quisquam eaque ad nostrum vero
+        rerum in aliquam delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam eos molestias eum
+        reprehenderit molestiae maxime nam culpa eligendi necessitatibus accusamus doloribus quam, ut at blanditiis
+        delectus odio ea atque ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellat, alias
+        aperiam, facere rem voluptatibus delectus accusamus iusto sed, aspernatur blanditiis. Quo quas modi laudantium
+        nostrum repudiandae harum sunt inventore?</p></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3 class="text-center">Beef</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad deleniti asperiores
+        neque consectetur? Doloremque non, repellat, molestias, sed beatae repellendus quisquam eaque ad nostrum vero
+        rerum in aliquam delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam eos molestias eum
+        reprehenderit molestiae maxime nam culpa eligendi necessitatibus accusamus doloribus quam, ut at blanditiis
+        delectus odio ea atque ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellat, alias
+        aperiam, facere rem voluptatibus delectus accusamus iusto sed, aspernatur blanditiis. Quo quas modi laudantium
+        nostrum repudiandae harum sunt inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad deleniti asperiores
+        neque consectetur? Doloremque non, repellat, molestias, sed beatae repellendus quisquam eaque ad nostrum vero
+        rerum in aliquam delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam eos molestias eum
+        reprehenderit molestiae maxime nam culpa eligendi necessitatibus accusamus doloribus quam, ut at blanditiis
+        delectus odio ea atque ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellat, alias
+        aperiam, facere rem voluptatibus delectus accusamus iusto sed, aspernatur blanditiis. Quo quas modi laudantium
+        nostrum repudiandae harum sunt inventore?</p></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3 class="text-center">Sushi</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad deleniti asperiores
+        neque consectetur? Doloremque non, repellat, molestias, sed beatae repellendus quisquam eaque ad nostrum vero
+        rerum in aliquam delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam eos molestias eum
+        reprehenderit molestiae maxime nam culpa eligendi necessitatibus accusamus doloribus quam, ut at blanditiis
+        delectus odio ea atque ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellat, alias
+        aperiam, facere rem voluptatibus delectus accusamus iusto sed, aspernatur blanditiis. Quo quas modi laudantium
+        nostrum repudiandae harum sunt inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad deleniti asperiores
+        neque consectetur? Doloremque non, repellat, molestias, sed beatae repellendus quisquam eaque ad nostrum vero
+        rerum in aliquam delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam eos molestias eum
+        reprehenderit molestiae maxime nam culpa eligendi necessitatibus accusamus doloribus quam, ut at blanditiis
+        delectus odio ea atque ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellat, alias
+        aperiam, facere rem voluptatibus delectus accusamus iusto sed, aspernatur blanditiis. Quo quas modi laudantium
+        nostrum repudiandae harum sunt inventore?</p></div>
+    </div>
+
   </div>
-  <!-- https://pierrepauldore.github.io/coursera-test/module3_solution/ 
-  /Users/paul/coursera-test/coursera-test/module3_solution/index.html -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- 
+    https://pierrepauldore.github.io/coursera-test/module3_solution/
+    https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md 
+    https://www.coursera.org/learn/html-css-javascript-for-web-developers/peer/8VMXa/module-3-coding-assignment
+  -->
 </body>
 
 </html>

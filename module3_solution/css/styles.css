@@ -1,0 +1,195 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: 'Oxygen', sans-serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+h2 {
+  font-family: 'Oxygen', sans-serif;
+  color: #000000;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  
+}
+
+#nav-list a {
+  color: #090808;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+
+  table.visible-xs {
+    display: table !important;
+  }
+
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #0b0004;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  /* margin-top: -30px; */
+}
+
+/* END HEADER */
+
+.row {
+  background-color: #999999;
+  padding: 10px;
+}
+
+/******************** Large devices only ********************/
+@media (min-width: 1200px) {
+  .row {
+    
+    margin: 10px auto;
+  }
+}
+
+/******************** Medium devices only ********************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .row {
+    margin: 10px auto;
+  }
+}
+
+/******************** Small devices only ********************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .row {
+    margin: 10px auto;
+  }
+}
+
+/******************** Extra small devices only ********************/
+@media (max-width: 767px) {
+  .row {
+    margin: 10px auto;
+  }
+
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 {
+    /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw;
+    /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav {
+    /* Collapsed nav menu text */
+    width: 100%;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  } 
+
+  /* End Header */
+}
